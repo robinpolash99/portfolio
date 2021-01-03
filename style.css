@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -15,5 +16,37 @@ h1{
     padding-left: 2%;
 }
 .half-width img{
-    width: 100%;
+    width: 80%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
+}
+h2{
+    color: rgb(61, 228, 28);
+}
+p{
+    color: tomato;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(192, 201, 64), tomato);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+.channel-button{
+    text-decoration: none;
+    background-image: rgb(46, 248, 80);
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
